@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="whatsapp.css">
+</head>
+
+<body>
+	<h1>GHANA'S LOOK ALIKE</h1>
+	<h2>REGISTRATION FORMS</h2>
+	<div class="container">
+		<h2>Contact Us</h2>
+		<p>Please Note That Your Details Should Be Accurate And It Would Be Sent To Us Through WhatsApp. Thank You</p>
+		<form action="">
+			<div>
+				<span>
+					<label for="name">Name</label><br />
+					<input id="name" type="text" placeholder="Full Name"><br>
+				</span>
+				<span>
+					<label for="date">Date Of Birth</label></br>
+					<input id="date" type="date" placeholder="Email">
+				</span><br>
+				<span>
+					<label for="gender">Gender</label><br />
+					<input id="gender" type="text" placeholder="Male/Fenale"><br>
+				</span>
+				<span>
+					<label for="contact">Contact</label></br>
+					<input id="contact" type="tel" value="+233">
+				</span><br>
+				<span>
+					<label for="location">Location</label></br>
+					<input id="location" type="email" placeholder="eg. Kumasi, Ashanti Region">
+				</span><br>
+				<span>
+					<label for="look-alike">Contestant's Look Alike</label><br />
+					<input id="look-alike" type="text" placeholder="eg. Sarkodie"><br>
+				</span>
+				<span>
+					<label for="next-of-kin">Next Of Kin</label></br>
+					<input id="next-of-kin" type="email" placeholder="eg. Samuel Opoku (Brother)">
+				</span><br>
+			</div>
+			<label for="message">Your Message</label><br />
+			<textarea name="" id="message" rows="10" placeholder="Your Message To Us"></textarea>
+			<br>
+			<button onclick="sendToWhatsapp()">Submit</button>
+		</form>
+	</div>
+
+	<script src="whatsapp.js"></script>
+</body>
+
+</html>
